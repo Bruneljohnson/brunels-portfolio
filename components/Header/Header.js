@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <Container>
       <Div1>
-        <Link href="/">
+        <Link href="/" passHref={true}>
           <a className={classes.a}>
             <Span>BRUNEL JOHNSON</Span>
           </a>

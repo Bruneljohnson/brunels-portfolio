@@ -14,11 +14,11 @@ const Hero = () => {
   useEffect(() => {
     init(textRef.current, {
       startDelay: 300,
-      typeSpeed: 150,
+      typeSpeed: 120,
       showCursor: true,
       cursorChar: "",
       backDelay: 300,
-      backSpeed: 100,
+      backSpeed: 80,
       loop: false,
       strings: [
         "Lover of Life.",
