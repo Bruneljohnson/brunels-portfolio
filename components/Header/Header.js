@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 import classes from "./Header.module.css";
-import Image from "next/image";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 
 import {
