@@ -1,7 +1,10 @@
 .a {
   margin-left: 1rem;
-  color: #fff;
-  text-shadow: 0 3px 2px #945dd6;
+  background: linear-gradient(100deg, #13adc7 10%, #945dd6 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
   display: flex;
   align-items: center;
 }
