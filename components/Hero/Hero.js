@@ -27,7 +27,7 @@ const Hero = () => {
         "MERN Developer.",
       ],
     });
-  }, [init, textRef]);
+  }, [textRef]);
 
   const learnMoreHandler = () => {
     document.location.href =
@@ -39,7 +39,7 @@ const Hero = () => {
       <LeftSection>
         <SectionTitle main center>
           Hey, my name is <Span>Brunel</Span> <br />
-          and I'm a <Span ref={textRef}></Span>
+          and I&apos;m a <Span ref={textRef}></Span>
         </SectionTitle>
         <SectionText>
           A self-taught, highly versatile, and ambitious individual. Who is
