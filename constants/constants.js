@@ -15,8 +15,8 @@ export const projects = [
       "My portfolio website is built using Next.js, React and Styled-Components. Next.js offers a better SEO and features that would require 3rd-party packages if using React only, I designed it using Styled-Components as a means to vary away from my normal use of CSS Modules.",
     image: "/images/portfolio-website.png",
     tags: ["React", "Next.js", "Jest", "Styled-Components"],
-    live: "https://google.com",
-    code: "https://google.com",
+    live: "https://codingbybrunel.com",
+    code: "https://github.com/Bruneljohnson/brunels-portfolio",
     id: 1,
   },
   {
@@ -25,8 +25,8 @@ export const projects = [
       "I created this using a free landing page sample from Figma, and then replicated the design using photoshop as I wanted to create more than a landing page. I added persisting Authentication via Firebase with guarded front-end routes, Http requests, persisting shopping cart to order capabilities, a book a table feature, and dynamic route pages.",
     image: "/images/GilanisItalianResturant.png",
     tags: ["React", "JavaScript", "Firebase"],
-    live: "https://bruneljohnson.github.io/gilanis-restaurant/",
-    code: "https://github.com/Bruneljohnson/gilanis-restaurant",
+    live: "https://bruneljohnson.github.io/gilanis",
+    code: "https://github.com/Bruneljohnson/gilanis",
     id: 2,
   },
   {
