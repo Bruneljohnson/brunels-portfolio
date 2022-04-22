@@ -20,13 +20,13 @@ export const projects = [
     id: 1,
   },
   {
-    title: "Gilani's Italian Restaurant",
+    title: "MyLinks API - BACKEND",
     description:
-      "I created this using a free landing page sample from Figma, and then replicated the design using photoshop as I wanted to create more than a landing page. I added persisting Authentication via Firebase with guarded front-end routes, Http requests, persisting shopping cart to order capabilities, a book a table feature, and dynamic route pages.",
-    image: "/images/GilanisItalianResturant.png",
-    tags: ["React", "JavaScript", "Firebase"],
-    live: "https://bruneljohnson.github.io/gilanis",
-    code: "https://github.com/Bruneljohnson/gilanis",
+      "A URL shortener API, with visits counter and authentication. Allows users to shorten website urls and links. Share with colleagues, friends and the world.",
+    image: "/images/MyLinks-Api.png",
+    tags: ["NodeJS", "Express", "MongoDB", "Mongoose"],
+    live: "https://mylinks-url.herokuapp.com/",
+    code: "https://github.com/Bruneljohnson/Mylinks-BackendApp",
     id: 2,
   },
   {
