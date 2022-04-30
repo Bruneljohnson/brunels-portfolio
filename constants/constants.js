@@ -7,7 +7,7 @@ export const projects = [
     tags: ["JavaScript ES6+", "CSS", "HTML"],
     live: "https://bruneljohnson.github.io/BrunelPokedex/",
     code: "https://github.com/Bruneljohnson/BrunelPokedex",
-    id: 0,
+    id: "fr0",
   },
   {
     title: "Portfolio",
@@ -17,27 +17,27 @@ export const projects = [
     tags: ["React", "Next.js", "Jest", "Styled-Components"],
     live: "https://codingbybrunel.com",
     code: "https://github.com/Bruneljohnson/brunels-portfolio",
-    id: 1,
+    id: "fr1",
   },
   {
     title: "MyLinks API - BACKEND",
     description:
-      "A URL shortener API, with visits counter and authentication. Allows users to shorten website urls and links. Share with colleagues, friends and the world.",
+      "A URL shortener API, with visits, email verification and authentication. Allows users to shorten website urls and links. Share with colleagues, friends and the world.",
     image: "/images/MyLinks-Api.png",
     tags: ["NodeJS", "Express", "MongoDB", "Mongoose"],
     live: "https://mylinks-url.herokuapp.com/",
     code: "https://github.com/Bruneljohnson/Mylinks-BackendApp",
-    id: 2,
+    id: "fs0",
   },
   {
-    title: "Hey!",
+    title: "MyLinks- REACT SPA",
     description:
-      "Coming Soon! Creating a front-end realtime chat application that replicates the functionalities similar to whatsapp.",
-    image: "/images/Brunel-Johnson.jpg",
-    tags: ["React", "ChatEngine", "Firebase"],
-    live: "https://google.com",
-    code: "https://google.com",
-    id: 3,
+      "A URL shortener React App, with user profiles, authentication and client-side routing. Allows users to shorten website urls and links. Share with colleagues, friends and the world.",
+    image: "/images/MyLinks.png",
+    tags: ["React", "Redux"],
+    live: "https://bruneljohnson.github.io/mylinks/",
+    code: "https://github.com/Bruneljohnson/mylinks",
+    id: "fr1",
   },
   {
     title: "Lets Shop",
@@ -47,7 +47,7 @@ export const projects = [
     tags: ["React", "Next.JS", "Firebase", "Jest"],
     live: "https://google.com",
     code: "https://google.com",
-    id: 4,
+    id: "fs2",
   },
   {
     title: "The Weather App",
@@ -57,7 +57,7 @@ export const projects = [
     tags: ["React", "Jest"],
     live: "https://google.com",
     code: "https://google.com",
-    id: 5,
+    id: "fs3",
   },
   {
     title: "Anime Lovers",
@@ -67,7 +67,7 @@ export const projects = [
     tags: ["Next.JS", "ReactJS", "NodeJS", "MongoDB"],
     live: "https://google.com",
     code: "https://google.com",
-    id: 6,
+    id: "fs4",
   },
 ];
 
@@ -83,7 +83,7 @@ export const TimeLineData = [
 ];
 
 export const data = [
-  { number: 14500, text: "Instagram Followers" },
+  { number: 14600, text: "Instagram Followers" },
   { number: 8, text: "Coding Projects" },
   { number: 7, text: "Languages Learnt" },
   { number: 14, text: "Countries Visited" },
