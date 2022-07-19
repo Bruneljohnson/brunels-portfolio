@@ -24,13 +24,13 @@ export const projects = [
     description:
       "A URL shortener API, with visits, email verification and authentication. Allows users to shorten website urls and links. Share with colleagues, friends and the world.",
     image: "/images/MyLinks-Api.png",
-    tags: ["NodeJS", "Express", "MongoDB", "Mongoose"],
+    tags: ["NodeJS", "Express", "MongoDB", "Mongoose", "JWT"],
     live: "https://mylinks-url.herokuapp.com/",
     code: "https://github.com/Bruneljohnson/Mylinks-BackendApp",
     id: "fs0",
   },
   {
-    title: "MyLinks- REACT SPA",
+    title: "MyLinks - REACT SPA",
     description:
       "A URL shortener React App, with user profiles, authentication and client-side routing. Allows users to shorten website urls and links. Share with colleagues, friends and the world.",
     image: "/images/MyLinks.png",
@@ -40,23 +40,23 @@ export const projects = [
     id: "fr1",
   },
   {
-    title: "Lets Shop",
+    title: "Golden Shoe - REACT SPA",
     description:
-      "Coming Soon! Creating a Front-end E-commerce website that uses stripe and other technologies that allow users to perchase designer and sportswear clothes online.",
-    image: "/images/Brunel-Johnson.jpg",
-    tags: ["React", "Next.JS", "Firebase", "Jest"],
-    live: "https://google.com",
-    code: "https://google.com",
-    id: "fs2",
+      "An E-commerce React App, that helps a boutique sneaker store become online present. User's can filter their searches, make purchases through stripe and check their orders.",
+    image: "/images/goldenshoeFE.png",
+    tags: ["React", "Redux", "Stripe"],
+    live: "https://bruneljohnson.github.io/goldenshoe/",
+    code: "https://github.com/Bruneljohnson/goldenshoe",
+    id: "fr2",
   },
   {
-    title: "The Weather App",
+    title: "Golden Shoe - BACKEND",
     description:
-      "Coming Soon! Weather app built solely on React using the Open Weather API",
-    image: "/images/Brunel-Johnson.jpg",
-    tags: ["React", "Jest"],
-    live: "https://google.com",
-    code: "https://google.com",
+      "A E-commerce API, with product, email verification and authentication. Allows users to purchase Golden Shoe products, check order details and  manage stock levels via their website.",
+    image: "/images/goldenshoeBE.png",
+    tags: ["NodeJS", "Express", "MongoDB", "Mongoose", "Stripe", "JWT"],
+    live: " https://goldenshoe-api.herokuapp.com/",
+    code: "https://github.com/Bruneljohnson/goldenshoe-backend",
     id: "fs3",
   },
   {
